@@ -28,7 +28,6 @@ public class Join {
         System.out.println("핸드폰 번호를 입력 하세요");
         info.phone = scr.nextInt();
         System.out.printf("phone=%011d", info.phone);
-        
     }
 }
 
