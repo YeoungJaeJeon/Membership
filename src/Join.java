@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Join {
-    public static void join() {
+    public void join() {
         Scanner scr = new Scanner(System.in);
         InforMation info = new InforMation();
 
