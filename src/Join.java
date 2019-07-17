@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class Join {
-    public void join() {
+public class Join extends InforMation{
+    public static void join() {
         Scanner scr = new Scanner(System.in);
         InforMation info = new InforMation();
 
@@ -30,4 +30,5 @@ public class Join {
         System.out.printf("phone=%011d", info.phone);
     }
 }
+
 
