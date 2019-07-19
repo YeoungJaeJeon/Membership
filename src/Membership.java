@@ -46,6 +46,9 @@ public class Membership{
 
        if(jeon.equals("천재") ? jeon.equals(genius) : (jeon.equals(peple) ? jeon.equals(stupid) : jeon.equals("영재") ))
        { System.out.println(yeoungjae);
-   }
+
+       int num=10;
+       System.out.println(num > 0 ? "양수" : (num < 0 ? "음수" : "0"));
+       }
 }
 }
